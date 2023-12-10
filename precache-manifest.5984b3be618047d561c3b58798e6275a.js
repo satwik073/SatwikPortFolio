@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b212a8be6cfb36cae570aad0854a39c6",
+    "revision": "23aef30500ab6b80f878eb65fdf00c14",
     "url": "/SatwikPortFolio/index.html"
   },
   {
-    "revision": "a9560e82bbdffe5d40e0",
+    "revision": "e60bbac7f9d2ea244591",
     "url": "/SatwikPortFolio/static/css/2.3b91391f.chunk.css"
   },
   {
-    "revision": "d37d3cfae50e4d17b8b1",
-    "url": "/SatwikPortFolio/static/css/main.620a915b.chunk.css"
+    "revision": "b09cecba10fbcaa18a21",
+    "url": "/SatwikPortFolio/static/css/main.dc2da7d1.chunk.css"
   },
   {
-    "revision": "a9560e82bbdffe5d40e0",
-    "url": "/SatwikPortFolio/static/js/2.b281f408.chunk.js"
+    "revision": "e60bbac7f9d2ea244591",
+    "url": "/SatwikPortFolio/static/js/2.351c5ebd.chunk.js"
   },
   {
     "revision": "60f6bf9e100e456690e9ab6c9a37bfc2",
-    "url": "/SatwikPortFolio/static/js/2.b281f408.chunk.js.LICENSE.txt"
+    "url": "/SatwikPortFolio/static/js/2.351c5ebd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1fb5c8ba18b5d44c1a42",
-    "url": "/SatwikPortFolio/static/js/3.75e2788c.chunk.js"
+    "revision": "95a8f99ec09d3868cc6b",
+    "url": "/SatwikPortFolio/static/js/3.1759034b.chunk.js"
   },
   {
-    "revision": "d37d3cfae50e4d17b8b1",
-    "url": "/SatwikPortFolio/static/js/main.4748ec65.chunk.js"
+    "revision": "b09cecba10fbcaa18a21",
+    "url": "/SatwikPortFolio/static/js/main.b49a68de.chunk.js"
   },
   {
-    "revision": "14bc836267dc70365673",
-    "url": "/SatwikPortFolio/static/js/runtime-main.a190fc64.js"
+    "revision": "6fb6c8d12e3b9ca65614",
+    "url": "/SatwikPortFolio/static/js/runtime-main.13b5a683.js"
   },
   {
     "revision": "5336bcc51a7714615cdddf998f65b93b",
@@ -122,6 +122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "93d3f105c4a8d3c37541f4de010b9f81",
     "url": "/SatwikPortFolio/static/media/secondMedal.93d3f105.png"
+  },
+  {
+    "revision": "38999aaf7ecb91783101b8f83e416cf7",
+    "url": "/SatwikPortFolio/static/media/swipe.38999aaf.png"
   },
   {
     "revision": "6e727de72fb8031bb890a0522cfacf6d",
