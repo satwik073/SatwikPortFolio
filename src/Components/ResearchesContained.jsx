@@ -2,6 +2,7 @@ import React from 'react'
 import { styles } from '../style'
 import "../assets/Css/fonts.css";
 import InternshipsData from './InternshipsData';
+import ResearchData from './ResearchData';
 const ResearchesContained = () => {
   return (
     <div className=" w-full p-6  bg-gradient-to-b from-[#d7fffc] via-[#d7fffc] to-[#f9e7e4] rounded-lg md:flex-row md:p-12">
@@ -26,7 +27,7 @@ const ResearchesContained = () => {
       </div>
     </div>
   <div>
-    <InternshipsData/>
+   <ResearchData/>
   </div>
     
   </div>

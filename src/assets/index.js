@@ -5,6 +5,7 @@ import Java from "./images/icons/java.png";
 import Python from "./images/icons/python.png";
 import CProgramming from "./images/icons/cpp.png";
 import HtmlImage from "./images/icons/html.png"
+import Swipe from "./images/icons/swipe.png"
 import Css from "./images/icons/css.png";
 import NodeGesture from "./images/icons/nodejs.png"
 import MongoShowed from "./images/icons/mongo.png"
@@ -28,6 +29,7 @@ export {
   Css,
   NodeGesture,
   MongoShowed,
+  Swipe,
   First,
   Second,
   VsClone,
