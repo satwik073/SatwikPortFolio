@@ -1,6 +1,8 @@
 import React from 'react'
 import { styles } from '../style'
 import InternshipsData from './InternshipsData'
+import CertificationData from './CertificationData'
+
 const Certifications = () => {
   return (
     <div className=" w-full p-6  bg-gradient-to-b from-[#f6f5fa] via-[#f6f5fa] to-[#efeffb] rounded-lg md:flex-row md:p-12">
@@ -25,11 +27,9 @@ const Certifications = () => {
       </div>
     </div>
 
-<div>
-  <InternshipsData/>
-  <InternshipsData/>
-  <InternshipsData/>
-  <InternshipsData/>
+<div className='mt-7'>
+<CertificationData/>
+ 
 </div>
     
   </div>

@@ -11,6 +11,11 @@
   position: relative;
   font-weight: 500;
 }
+.CerHeadlines {
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+}
 .aboutinationFlex,
 .workFlexed ,
 .titleStyled,

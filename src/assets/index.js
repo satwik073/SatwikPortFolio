@@ -17,15 +17,31 @@ import ProjectFlex from "./images/project.png"
 import First from "./images/icons/firstMedal.png"
 import Second from "./images/icons/secondMedal.png";
 import wProject from "./images/wProject.png"
+import cerGoogle from "./images/google_page-0001.jpg"
+import cermic from "./images/microsoft_page-0001.jpg"
+import cerGLpython from "./images/logo/pythoncertificate.PNG"
+import cerGLBLck from "./images/logo/blockchainBasic.PNG"
+import cercodingcpp from "./images/cppCoding_page-0001.jpg"
+import cercodepython from "./images/codingPython_page-0001.jpg"
+import cerSpring from "./images/springboard_page-0001.jpg"
+import cerCyber from "./images/cyber.PNG";
 export {
   logo,
   about,
   Java,
   Javacript,
+  cerCyber,
+  cerSpring,
+  cercodepython,
+  cercodingcpp,
   Python,
   CProgramming,
   wProject,
   HtmlImage,
+  cerGLBLck,
+  cerGLpython,
+  cerGoogle,
+  cermic,
   Css,
   NodeGesture,
   MongoShowed,

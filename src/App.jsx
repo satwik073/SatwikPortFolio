@@ -35,9 +35,7 @@ const AlterMessage = () => {
       <div className="w-full bg-[rgb(255,255,255)] ">
         <Certifications/>
       </div>
-      <div className="w-full bg-transparent">
-        <InternshipsData/>
-      </div>
+    
       <div className="w-full bg-[rgb(255,255,255)] ">
         <Patents/>
       </div>
