@@ -1,39 +1,55 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89a7da1f1b6913a95ef3f2627a9f44fe",
+    "revision": "6c3bef2320e9b2dc39c92874db06dadd",
     "url": "/SatwikPortFolio/index.html"
   },
   {
-    "revision": "96f5090d68d84b368070",
+    "revision": "34b562bfb151254c6ed8",
     "url": "/SatwikPortFolio/static/css/2.3b91391f.chunk.css"
   },
   {
-    "revision": "0cd88df424414e1f92b6",
+    "revision": "d083b8b324ac88c7a973",
     "url": "/SatwikPortFolio/static/css/main.23e76252.chunk.css"
   },
   {
-    "revision": "96f5090d68d84b368070",
-    "url": "/SatwikPortFolio/static/js/2.379ed870.chunk.js"
+    "revision": "34b562bfb151254c6ed8",
+    "url": "/SatwikPortFolio/static/js/2.4cdea8c5.chunk.js"
   },
   {
     "revision": "60f6bf9e100e456690e9ab6c9a37bfc2",
-    "url": "/SatwikPortFolio/static/js/2.379ed870.chunk.js.LICENSE.txt"
+    "url": "/SatwikPortFolio/static/js/2.4cdea8c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2b98286d7c5a89f2ae0",
-    "url": "/SatwikPortFolio/static/js/3.9276f7f7.chunk.js"
+    "revision": "2b71360c2e710e724243",
+    "url": "/SatwikPortFolio/static/js/3.7a149445.chunk.js"
   },
   {
-    "revision": "0cd88df424414e1f92b6",
-    "url": "/SatwikPortFolio/static/js/main.4cf87ba6.chunk.js"
+    "revision": "d083b8b324ac88c7a973",
+    "url": "/SatwikPortFolio/static/js/main.f450888f.chunk.js"
   },
   {
-    "revision": "fcb50ff10c22e71ba3ef",
-    "url": "/SatwikPortFolio/static/js/runtime-main.a600cf50.js"
+    "revision": "6b27751752f1a5bb9a34",
+    "url": "/SatwikPortFolio/static/js/runtime-main.688552e6.js"
   },
   {
     "revision": "5336bcc51a7714615cdddf998f65b93b",
     "url": "/SatwikPortFolio/static/media/about.5336bcc5.png"
+  },
+  {
+    "revision": "9ebe9a985561ac9ae965f979f0c5bd8d",
+    "url": "/SatwikPortFolio/static/media/amazon_merged_page-0001.9ebe9a98.jpg"
+  },
+  {
+    "revision": "e51e3245dabbeedae24ad12d5da4af22",
+    "url": "/SatwikPortFolio/static/media/amazon_merged_page-0002.e51e3245.jpg"
+  },
+  {
+    "revision": "db3646beeda98c0c6f069f27a1d60db0",
+    "url": "/SatwikPortFolio/static/media/amazon_merged_page-0003.db3646be.jpg"
+  },
+  {
+    "revision": "a39c0623935b4a38e87c6644b764eaca",
+    "url": "/SatwikPortFolio/static/media/amazon_merged_page-0004.a39c0623.jpg"
   },
   {
     "revision": "7f21a4acde3845400b46f910d06b5014",

@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/SatwikPortFolio/static/css/main.23e76252.chunk.css",
-    "main.js": "/SatwikPortFolio/static/js/main.4cf87ba6.chunk.js",
-    "main.js.map": "/SatwikPortFolio/static/js/main.4cf87ba6.chunk.js.map",
-    "runtime-main.js": "/SatwikPortFolio/static/js/runtime-main.a600cf50.js",
-    "runtime-main.js.map": "/SatwikPortFolio/static/js/runtime-main.a600cf50.js.map",
+    "main.js": "/SatwikPortFolio/static/js/main.f450888f.chunk.js",
+    "main.js.map": "/SatwikPortFolio/static/js/main.f450888f.chunk.js.map",
+    "runtime-main.js": "/SatwikPortFolio/static/js/runtime-main.688552e6.js",
+    "runtime-main.js.map": "/SatwikPortFolio/static/js/runtime-main.688552e6.js.map",
     "static/css/2.3b91391f.chunk.css": "/SatwikPortFolio/static/css/2.3b91391f.chunk.css",
-    "static/js/2.379ed870.chunk.js": "/SatwikPortFolio/static/js/2.379ed870.chunk.js",
-    "static/js/2.379ed870.chunk.js.map": "/SatwikPortFolio/static/js/2.379ed870.chunk.js.map",
-    "static/js/3.9276f7f7.chunk.js": "/SatwikPortFolio/static/js/3.9276f7f7.chunk.js",
-    "static/js/3.9276f7f7.chunk.js.map": "/SatwikPortFolio/static/js/3.9276f7f7.chunk.js.map",
+    "static/js/2.4cdea8c5.chunk.js": "/SatwikPortFolio/static/js/2.4cdea8c5.chunk.js",
+    "static/js/2.4cdea8c5.chunk.js.map": "/SatwikPortFolio/static/js/2.4cdea8c5.chunk.js.map",
+    "static/js/3.7a149445.chunk.js": "/SatwikPortFolio/static/js/3.7a149445.chunk.js",
+    "static/js/3.7a149445.chunk.js.map": "/SatwikPortFolio/static/js/3.7a149445.chunk.js.map",
     "index.html": "/SatwikPortFolio/index.html",
-    "precache-manifest.8677e879ad7efa7bcb6e31b915a90d58.js": "/SatwikPortFolio/precache-manifest.8677e879ad7efa7bcb6e31b915a90d58.js",
+    "precache-manifest.d10b5fce0b17056d1fc8cd3917ed64bd.js": "/SatwikPortFolio/precache-manifest.d10b5fce0b17056d1fc8cd3917ed64bd.js",
     "service-worker.js": "/SatwikPortFolio/service-worker.js",
     "static/css/2.3b91391f.chunk.css.map": "/SatwikPortFolio/static/css/2.3b91391f.chunk.css.map",
     "static/css/main.23e76252.chunk.css.map": "/SatwikPortFolio/static/css/main.23e76252.chunk.css.map",
-    "static/js/2.379ed870.chunk.js.LICENSE.txt": "/SatwikPortFolio/static/js/2.379ed870.chunk.js.LICENSE.txt",
+    "static/js/2.4cdea8c5.chunk.js.LICENSE.txt": "/SatwikPortFolio/static/js/2.4cdea8c5.chunk.js.LICENSE.txt",
     "static/media/about.png": "/SatwikPortFolio/static/media/about.5336bcc5.png",
+    "static/media/amazon_merged_page-0001.jpg": "/SatwikPortFolio/static/media/amazon_merged_page-0001.9ebe9a98.jpg",
+    "static/media/amazon_merged_page-0002.jpg": "/SatwikPortFolio/static/media/amazon_merged_page-0002.e51e3245.jpg",
+    "static/media/amazon_merged_page-0003.jpg": "/SatwikPortFolio/static/media/amazon_merged_page-0003.db3646be.jpg",
+    "static/media/amazon_merged_page-0004.jpg": "/SatwikPortFolio/static/media/amazon_merged_page-0004.a39c0623.jpg",
     "static/media/blockchainBasic.PNG": "/SatwikPortFolio/static/media/blockchainBasic.7f21a4ac.PNG",
     "static/media/codingPython_page-0001.jpg": "/SatwikPortFolio/static/media/codingPython_page-0001.0697c48d.jpg",
     "static/media/cpp.png": "/SatwikPortFolio/static/media/cpp.b4e1f2ce.png",
@@ -46,10 +50,10 @@
     "static/media/wProject.png": "/SatwikPortFolio/static/media/wProject.c3989d77.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a600cf50.js",
+    "static/js/runtime-main.688552e6.js",
     "static/css/2.3b91391f.chunk.css",
-    "static/js/2.379ed870.chunk.js",
+    "static/js/2.4cdea8c5.chunk.js",
     "static/css/main.23e76252.chunk.css",
-    "static/js/main.4cf87ba6.chunk.js"
+    "static/js/main.f450888f.chunk.js"
   ]
 }
