@@ -25,12 +25,18 @@ import cercodingcpp from "./images/cppCoding_page-0001.jpg"
 import cercodepython from "./images/codingPython_page-0001.jpg"
 import cerSpring from "./images/springboard_page-0001.jpg"
 import cerCyber from "./images/cyber.PNG";
+import image1 from "./images/Achievement/amazon_merged_page-0001.jpg"
+import image2 from "./images/Achievement/amazon_merged_page-0002.jpg"
+import image3 from "./images/Achievement/amazon_merged_page-0003.jpg"
+import image4 from "./images/Achievement/amazon_merged_page-0004.jpg"
 export {
   logo,
   about,
   Java,
   Javacript,
   cerCyber,
+  image1, image3,
+  image2, image4,
   cerSpring,
   cercodepython,
   cercodingcpp,
