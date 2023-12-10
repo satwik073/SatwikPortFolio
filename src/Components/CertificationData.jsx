@@ -26,7 +26,7 @@ const CertificationData = () => {
 
   return (
     <div className="flex justify-center items-center">
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-11 w-full">
+      <div className="grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-11 w-full">
         {certificateImages.map((certificate, index) => (
           <div key={index} className="relative box">
             <img
