@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div className=" w-full p-6  bg-gradient-to-b from-[#fef7e2] via-[#fee2e2] to-[#eeeefc] rounded-lg md:flex-row md:p-12">
       
-    <div className="w-full md:flex  pt-2 md:pt-[5rem]">
+    <div className="w-[90%] md:flex  pt-2 md:pt-[5rem]">
       <div className="w-full md:w-1/2">
         <h1
           className={`text-[16px] mb-4 font-semibold uppercase ${styles.logoFlex}`}
