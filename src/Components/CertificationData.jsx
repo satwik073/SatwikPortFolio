@@ -4,12 +4,12 @@ import "../assets/Css/fonts.css";
 
 const CertificationData = () => {
   const certificateImages = [
-    { imageSrc: cerGoogle, title: "Google Data Analytics Professional Certificate", issueDate: "August 2023" },
+    { imageSrc: cerGoogle, title: "Google Data Analytics ", issueDate: "August 2023" },
     { imageSrc: cermic, title: "Natural Language Processing in Microsoft Azure", issueDate: "September 2023" },
-    { imageSrc: cerGLBLck, title: "Great Learning Blockchain Basics", issueDate: "August 2023" },
-    { imageSrc: cerGLpython, title: "Great Learning Python for Machine Learning", issueDate: "August 2023" },
+    { imageSrc: cerGLBLck, title: " Blockchain Basics", issueDate: "August 2023" },
+    { imageSrc: cerGLpython, title: "Python for Machine Learning", issueDate: "August 2023" },
     { imageSrc: cerCyber, title: "Introduction to Cybersecurity", issueDate: "May 2022" },
-    { imageSrc: cercodepython, title: "Introduction to Python - Chitkara University, 2021", issueDate: "January 2022" },
+    { imageSrc: cercodepython, title: "Introduction to Python ", issueDate: "November 2021" },
     { imageSrc: cercodingcpp, title: "Introduction to C++ for Chitkara University Completion Certificate", issueDate: "February 2022" },
     { imageSrc: cerSpring, title: "Explore Machine Learning Using Python", issueDate: "Aug 2023" },
   ];
