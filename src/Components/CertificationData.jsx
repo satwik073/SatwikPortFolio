@@ -25,10 +25,11 @@ const CertificationData = () => {
   };
 
   return (
-    <div className="flex justify-center items-center">
-      <div className="grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-11 w-full">
+    <div className="flex justify-center items-center p-0 mb-5">
+      <div className="grid sm:grid-cols-2 grid-cols-1 p-0 lg:grid-cols-2 mt-4 gap-16 w-[90%]">
         {certificateImages.map((certificate, index) => (
-          <div key={index} className="relative box">
+          <div>
+          <div key={index} className="relative box mt-6">
             <img
               className="w-full h-auto cursor-pointer"
               src={certificate.imageSrc}
@@ -40,12 +41,9 @@ const CertificationData = () => {
                 <img src={selectedImage} alt={`Certificate ${index + 1}`} />
               </div>
             </div>
-            <div className="absolute inset-0 flex justify-center items-center opacity-0 hover:opacity-100 transition duration-300 ease-in-out bg-black bg-opacity-70 rounded-lg text-white text-center">
-              <div>
-                <p className="font-semibold CerHeadlines capitalize px-6">{certificate.title}</p>
-                <p>{`Issued: ${certificate.issueDate}`}</p>
-              </div>
-            </div>
+          
+          </div>
+          <p className="font-semibold justify-center flex mt-4 ExpenTile text-xl hover:text-indigo-200 text-[#000248]">{certificate.title}</p>
           </div>
         ))}
       </div>
