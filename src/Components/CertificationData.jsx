@@ -32,7 +32,7 @@ const CertificationData = () => {
               className="w-full h-auto cursor-pointer"
               src={certificate.imageSrc}
               alt={`Certificate ${index + 1}`}
-              onClick={() => openModal(certificate.imageSrc)}
+             
             />
             <div className={`modal-overlay ${selectedImage ? "block" : "hidden"}`} onClick={closeModal}>
               <div className="modal-content" onClick={(e) => e.stopPropagation()}>
