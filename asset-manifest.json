@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SatwikPortFolio/static/css/main.7f765247.chunk.css",
-    "main.js": "/SatwikPortFolio/static/js/main.dd63ee5c.chunk.js",
-    "main.js.map": "/SatwikPortFolio/static/js/main.dd63ee5c.chunk.js.map",
+    "main.js": "/SatwikPortFolio/static/js/main.cc802d33.chunk.js",
+    "main.js.map": "/SatwikPortFolio/static/js/main.cc802d33.chunk.js.map",
     "runtime-main.js": "/SatwikPortFolio/static/js/runtime-main.8865804e.js",
     "runtime-main.js.map": "/SatwikPortFolio/static/js/runtime-main.8865804e.js.map",
     "static/css/2.3b91391f.chunk.css": "/SatwikPortFolio/static/css/2.3b91391f.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.3a967cf4.chunk.js": "/SatwikPortFolio/static/js/3.3a967cf4.chunk.js",
     "static/js/3.3a967cf4.chunk.js.map": "/SatwikPortFolio/static/js/3.3a967cf4.chunk.js.map",
     "index.html": "/SatwikPortFolio/index.html",
-    "precache-manifest.c235aacb06a903dfabc69e78179f8a3e.js": "/SatwikPortFolio/precache-manifest.c235aacb06a903dfabc69e78179f8a3e.js",
+    "precache-manifest.50ead2d578ef00d30008980e4fc4f254.js": "/SatwikPortFolio/precache-manifest.50ead2d578ef00d30008980e4fc4f254.js",
     "service-worker.js": "/SatwikPortFolio/service-worker.js",
     "static/css/2.3b91391f.chunk.css.map": "/SatwikPortFolio/static/css/2.3b91391f.chunk.css.map",
     "static/css/main.7f765247.chunk.css.map": "/SatwikPortFolio/static/css/main.7f765247.chunk.css.map",
@@ -54,6 +54,6 @@
     "static/css/2.3b91391f.chunk.css",
     "static/js/2.28de8aa1.chunk.js",
     "static/css/main.7f765247.chunk.css",
-    "static/js/main.dd63ee5c.chunk.js"
+    "static/js/main.cc802d33.chunk.js"
   ]
 }
