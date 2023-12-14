@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { styles } from "../style";
 import "../assets/Css/fonts.css";
 import { ProjectFlex, wProject } from "../assets";
 const Projects = () => {
+  const [imageLoaded , setImageLoaded]=useState(false)
   return (
     <div className=" w-full p-6  bg-gradient-to-b from-[#fef7e2] via-[#fee2e2] to-[#eeeefc] rounded-lg md:flex-row md:p-12">
       
@@ -25,16 +26,39 @@ const Projects = () => {
         </p>
       </div>
     </div>
-   
     <div className="flex mt-8 w-h-full">
-      <div className="grid gap-10 md:gap-15 md:grid-cols-2 ">
-      <img src={ProjectFlex} className="w[100%] border-[5px] border-white box" alt="" />
-      <img src={wProject} className="w[100%] border-[5px] border-white box" alt="" />
-      <img src={ProjectFlex} className="w[100%] border-[5px] border-white box" alt="" />
-      <img src={ProjectFlex} className="w[100%] border-[5px] border-white box" alt="" />
+        <div className="grid gap-10 md:gap-15 md:grid-cols-2">
+          {!imageLoaded && (
+            <div className="border-[5px] border-white animate-pulse w-[100%] h-[300px]"></div>
+          )}
+
+          <img
+            src={wProject}
+            onLoad={() => setImageLoaded(true)}
+            className={`w-[100%] border-[5px] border-white box ${imageLoaded ? "" : "bg-gray-300"}`}
+            alt=""
+          />
+          <img
+            src={ProjectFlex}
+            onLoad={() => setImageLoaded(true)}
+            className={`w-[100%] border-[5px] border-white box ${imageLoaded ? "" : "hidden"}`}
+            alt=""
+          />
+          <img
+            src={ProjectFlex}
+            onLoad={() => setImageLoaded(true)}
+            className={`w-[100%] border-[5px] border-white box ${imageLoaded ? "" : "hidden"}`}
+            alt=""
+          />
+          <img
+            src={ProjectFlex}
+            onLoad={() => setImageLoaded(true)}
+            className={`w-[100%] border-[5px] border-white box ${imageLoaded ? "" : "hidden"}`}
+            alt=""
+          />
+          {/* Add similar image components for other images */}
+        </div>
       </div>
-      
-    </div>
   </div>
   );
 };

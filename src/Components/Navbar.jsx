@@ -37,47 +37,51 @@ const Navbar = () => {
 
   return (
     <div className={`w-full ${navbarClass} fixed top-0 pt-3 left-0 z-50`}>
-      <div className="container w-full mx-auto">
-        <div className="flex items-center py-3 pb-4 ">
-          <div className="flex items-center w-[80%] ">
-            <img src={logo} alt="logo" className=" w-12 h-10" />
-            <div className="ml-2 md:ml-4">
-              <p className="text-md md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">
-                Satwik kanhere
-              </p>
-              <p className="text-[#00004B] md:text-[#00004B] text-[13px] tracking-[5px] font-serif">
-                Portfolio
-              </p>
-            </div>
+    <div className="container w-full mx-auto">
+      <div className="flex items-center py-3 pb-4">
+        {/* Left Side of Navbar */}
+        <div className="flex items-center w-[80%]">
+          <img src={logo} alt="logo" className="w-12 h-10" />
+          <div className="ml-2 md:ml-4">
+            <p className="text-md md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">
+              Satwik kanhere
+            </p>
+            <p className="text-[#00004B] md:text-[#00004B] text-[13px] tracking-[5px] font-serif">
+              Portfolio
+            </p>
           </div>
+        </div>
 
-          <div className="justify-end flex-1 hidden md:flex">
-            <ul className="flex text-[#00004B] justify-end">
-              {Links.map((nav, index) => (
-                <li
-                  key={index}
-                  className="mr-8"
-                  onClick={() => handleClick(nav.url)}
-                >
-                  <div className="text-[20px] cursor-pointer">
-                    <i className={nav.icon}></i>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </div>
+        {/* Right Side of Navbar */}
+        <div className="justify-end flex-1 flex items-center">
+          <ul className="flex text-[#00004B] justify-end mr-6">
+            {Links.map((nav, index) => (
+              <li
+                key={index}
+                className="mr-8"
+                onClick={() => handleClick(nav.url)}
+              >
+                <div className="text-[20px] md:block hidden cursor-pointer">
+                  <i className={nav.icon}></i>
+                </div>
+              </li>
+            ))}
+           
+           
+          </ul>
+        </div>
 
-          <div
-            className={`menu cursor-pointer text-2xl  bg-[#000000] rounded-[60%] ${
-              isMenuOpen ? "menu-open" : ""
-            }`}
-            onClick={handleMenuToggle}
-          >
-            <span className="menu-toggle text-white flex px-3  py-3 items-center justify-center">
+        {/* Menu Toggle Button */}
+        <div
+          className={`menu cursor-pointer flex justify-end right-0 text-2xl bg-[#000000] rounded-[60%] ${
+            isMenuOpen ? "menu-open" : ""
+          }`}
+          onClick={handleMenuToggle}
+        >
+          <span className="menu-toggle text-white flex px-3 right-0 py-3 items-center">
             <CgMenuLeft />
-            </span>
-          </div>
-
+          </span>
+        </div>
           {isMenuOpen && (
             <div className="fixed left-0 top-0 z-50 h-full w-[90%] md:w-[38%] bg-[#000000f3] text-white">
               <div className="text-black bg-white logo-temp">

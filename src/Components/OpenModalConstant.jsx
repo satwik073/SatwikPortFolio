@@ -31,7 +31,7 @@ const OpenModalConstant = () => {
         });
       };
   return (
-    <div className="fixed bottom-8 right-8 z-20">
+    <div className={`fixed bottom-8 right-8 z-20  `}>
       <button
         onClick={() => setIsOpen(true)}
         className="px-3 py-3 mx-auto tracking-wide bg-black text-white text-2xl capitalize transition-colors duration-300 transform  rounded-full  "
@@ -40,7 +40,7 @@ const OpenModalConstant = () => {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 flex md:mt-24 mt-16 items-center justify-center z-50 overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
+        <div className="fixed inset-0 flex md:mt-24 mt-16 items-center justify-center z-50 overflow-x-hidden overflow-y-auto bg-opacity-50 backdrop-filter backdrop-blur-md">
           <div className="relative w-full max-w-md p-6 bg-[#ffffff] border rounded-lg shadow-lg outline-none focus:outline-none">
             <div className="flex justify-end">
               <button
