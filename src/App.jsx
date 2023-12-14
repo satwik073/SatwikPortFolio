@@ -12,10 +12,12 @@ import ResearchesContained from "./Components/ResearchesContained";
 import InternshipsData from "./Components/InternshipsData";
 import Achievements from "./Components/Achievements";
 import Contact from "./Components/Contact";
+import OpenModalConstant from "./Components/OpenModalConstant";
+
 const AlterMessage = () => {
   return (
     <div className="App overflow-hidden absolute w-full bg-gradient-to-tr from-purple-200 via-purple-100 via-pink-100 to-[#fffb0086]">
-      
+        
       <div className="nav-attached m-[1.5rem]">
         <Navbar className="fixed m-[1.5rem]" />
       </div>
@@ -47,9 +49,12 @@ const AlterMessage = () => {
       <div className="w-full bg-[rgb(255,255,255)] ">
         <ResearchesContained/>
       </div>
-      {/* <div>
-        <Contact/>
-      </div> */}
+     {/* <div>
+      <Contact/>
+     </div> */}
+    <div>
+      <OpenModalConstant/>
+     </div>
     </div>
   );
 };

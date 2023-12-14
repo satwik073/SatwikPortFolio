@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { logo } from "../assets";
+import { CgMenuLeft } from "react-icons/cg";
 import { Links, menuLinks } from "../Constants";
-
+import { MdMarkUnreadChatAlt } from "react-icons/md";
 const Navbar = () => {
 
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -32,19 +33,19 @@ const Navbar = () => {
     setMenuOpen(false);
   };
 
-  const navbarClass = isScrolled ? "bg-white md:px-3 px-4 shadow-xl  " : " md:px-3 px-4 bg-transparent";
+  const navbarClass = isScrolled ? "bg-white md:px-3 px-4 shadow-lg  " : " md:px-3 px-4 bg-transparent";
 
   return (
-    <div className={`w-full ${navbarClass} fixed top-0 left-0 z-50`}>
+    <div className={`w-full ${navbarClass} fixed top-0 pt-3 left-0 z-50`}>
       <div className="container w-full mx-auto">
-        <div className="flex items-center py-4 md:py-6 ">
-          <div className="flex items-center w-full col-lg-3">
-            <img src={logo} alt="logo" className="w-12 h-15 md:w-20 md:h-15" />
+        <div className="flex items-center py-3 pb-4 ">
+          <div className="flex items-center w-[80%] ">
+            <img src={logo} alt="logo" className=" w-12 h-10" />
             <div className="ml-2 md:ml-4">
-              <p className="text-lg md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">
+              <p className="text-md md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">
                 Satwik kanhere
               </p>
-              <p className="text-[#00004B] md:text-[#00004B] text-[18px] tracking-[5px] font-serif">
+              <p className="text-[#00004B] md:text-[#00004B] text-[13px] tracking-[5px] font-serif">
                 Portfolio
               </p>
             </div>
@@ -67,13 +68,13 @@ const Navbar = () => {
           </div>
 
           <div
-            className={`menu cursor-pointer text-2xl font-bold w-[5.5rem] h-[4rem] bg-[#00004B] rounded-[60%] ${
+            className={`menu cursor-pointer text-2xl  bg-[#000000] rounded-[60%] ${
               isMenuOpen ? "menu-open" : ""
             }`}
             onClick={handleMenuToggle}
           >
-            <span className="menu-toggle text-white flex pt-3.5 items-center justify-center">
-              &#9776;
+            <span className="menu-toggle text-white flex px-3  py-3 items-center justify-center">
+            <CgMenuLeft />
             </span>
           </div>
 
@@ -87,10 +88,10 @@ const Navbar = () => {
                   &times;
                 </button>
                 <div className="flex items-center py-6 pl-4">
-                  <img src={logo} alt="logo" className="mr-4 w-15 h-14 " />
+                  <img src={logo} alt="logo" className="w-12 h-10 mr-2 " />
                   <div>
-                    <p className="text-[20px] font-bold">Satwik kanhere</p>
-                    <p className=" text-[18px] tracking-[5px] font-serif">
+                    <p className="text-md md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">Satwik kanhere</p>
+                    <p className=" text-[13px] tracking-[5px] font-serif">
                       Portfolio
                     </p>
                   </div>

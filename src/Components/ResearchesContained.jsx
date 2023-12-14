@@ -3,6 +3,7 @@ import { styles } from '../style'
 import "../assets/Css/fonts.css";
 import InternshipsData from './InternshipsData';
 import ResearchData from './ResearchData';
+import Contact from './Contact';
 const ResearchesContained = () => {
   return (
     <div className=" w-full p-6  bg-gradient-to-b from-[#d7fffc] via-[#d7fffc] to-[#f9e7e4] rounded-lg md:flex-row md:p-12">
@@ -29,6 +30,8 @@ const ResearchesContained = () => {
   <div>
    <ResearchData/>
   </div>
+
+ 
     
   </div>
   )

@@ -1,6 +1,7 @@
 import React from "react";
 import { IoTImage, First, Swipe } from "../assets";
 import "../assets/Css/fonts.css";
+import Contact from "./Contact";
 
 const ResearchData = () => {
     return (
@@ -51,6 +52,8 @@ const ResearchData = () => {
             
                 {/* End of Blockchain and IoT Research */}
             </div>
+
+         
         </div>
     );
 };
