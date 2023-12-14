@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/SatwikPortFolio/static/css/main.38925004.chunk.css",
-    "main.js": "/SatwikPortFolio/static/js/main.b454ac2c.chunk.js",
-    "main.js.map": "/SatwikPortFolio/static/js/main.b454ac2c.chunk.js.map",
-    "runtime-main.js": "/SatwikPortFolio/static/js/runtime-main.688552e6.js",
-    "runtime-main.js.map": "/SatwikPortFolio/static/js/runtime-main.688552e6.js.map",
+    "main.js": "/SatwikPortFolio/static/js/main.7b30b1b6.chunk.js",
+    "main.js.map": "/SatwikPortFolio/static/js/main.7b30b1b6.chunk.js.map",
+    "runtime-main.js": "/SatwikPortFolio/static/js/runtime-main.dfabbf8f.js",
+    "runtime-main.js.map": "/SatwikPortFolio/static/js/runtime-main.dfabbf8f.js.map",
     "static/css/2.3b91391f.chunk.css": "/SatwikPortFolio/static/css/2.3b91391f.chunk.css",
-    "static/js/2.4cdea8c5.chunk.js": "/SatwikPortFolio/static/js/2.4cdea8c5.chunk.js",
-    "static/js/2.4cdea8c5.chunk.js.map": "/SatwikPortFolio/static/js/2.4cdea8c5.chunk.js.map",
-    "static/js/3.7a149445.chunk.js": "/SatwikPortFolio/static/js/3.7a149445.chunk.js",
-    "static/js/3.7a149445.chunk.js.map": "/SatwikPortFolio/static/js/3.7a149445.chunk.js.map",
+    "static/js/2.7703ccf2.chunk.js": "/SatwikPortFolio/static/js/2.7703ccf2.chunk.js",
+    "static/js/2.7703ccf2.chunk.js.map": "/SatwikPortFolio/static/js/2.7703ccf2.chunk.js.map",
+    "static/js/3.3c859ce1.chunk.js": "/SatwikPortFolio/static/js/3.3c859ce1.chunk.js",
+    "static/js/3.3c859ce1.chunk.js.map": "/SatwikPortFolio/static/js/3.3c859ce1.chunk.js.map",
     "index.html": "/SatwikPortFolio/index.html",
-    "precache-manifest.303b698632d8f6ff17de36acc930a027.js": "/SatwikPortFolio/precache-manifest.303b698632d8f6ff17de36acc930a027.js",
+    "precache-manifest.5ffd917b9a26b0d8eb705f97288fc19a.js": "/SatwikPortFolio/precache-manifest.5ffd917b9a26b0d8eb705f97288fc19a.js",
     "service-worker.js": "/SatwikPortFolio/service-worker.js",
     "static/css/2.3b91391f.chunk.css.map": "/SatwikPortFolio/static/css/2.3b91391f.chunk.css.map",
     "static/css/main.38925004.chunk.css.map": "/SatwikPortFolio/static/css/main.38925004.chunk.css.map",
-    "static/js/2.4cdea8c5.chunk.js.LICENSE.txt": "/SatwikPortFolio/static/js/2.4cdea8c5.chunk.js.LICENSE.txt",
+    "static/js/2.7703ccf2.chunk.js.LICENSE.txt": "/SatwikPortFolio/static/js/2.7703ccf2.chunk.js.LICENSE.txt",
     "static/media/about.png": "/SatwikPortFolio/static/media/about.5336bcc5.png",
     "static/media/amazon_merged_page-0001.jpg": "/SatwikPortFolio/static/media/amazon_merged_page-0001.9ebe9a98.jpg",
     "static/media/amazon_merged_page-0002.jpg": "/SatwikPortFolio/static/media/amazon_merged_page-0002.e51e3245.jpg",
@@ -50,10 +50,10 @@
     "static/media/wProject.png": "/SatwikPortFolio/static/media/wProject.c3989d77.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.688552e6.js",
+    "static/js/runtime-main.dfabbf8f.js",
     "static/css/2.3b91391f.chunk.css",
-    "static/js/2.4cdea8c5.chunk.js",
+    "static/js/2.7703ccf2.chunk.js",
     "static/css/main.38925004.chunk.css",
-    "static/js/main.b454ac2c.chunk.js"
+    "static/js/main.7b30b1b6.chunk.js"
   ]
 }
