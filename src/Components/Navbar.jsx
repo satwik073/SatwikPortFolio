@@ -1,9 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { logo } from "../assets";
+import "../assets/Css/fonts.css"
 import { CgMenuLeft } from "react-icons/cg";
 import { Links, menuLinks } from "../Constants";
 import { MdMarkUnreadChatAlt } from "react-icons/md";
-const Navbar = () => {
+const Navbar = ({ scrollToAbout,
+  scrollToWork,
+  scrollToProjects,
+  scrollToCertifications,
+  scrollToAchievements,
+  scrollToPatents,
+  scrollToResearches,}) => {
 
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isScrolled, setScrolled] = useState(false);
@@ -83,7 +90,7 @@ const Navbar = () => {
           </span>
         </div>
           {isMenuOpen && (
-            <div className="fixed left-0 top-0 z-50 h-full w-[90%] md:w-[38%] bg-[#000000f3] text-white">
+            <div className="fixed left-0 top-0 z-50 h-full w-[90%] md:w-[38%] opacity-100  bg-[#000000f3] text-white">
               <div className="text-black bg-white logo-temp">
                 <button
                   onClick={handleCloseMenu}
@@ -91,7 +98,7 @@ const Navbar = () => {
                 >
                   &times;
                 </button>
-                <div className="flex items-center py-6 pl-4">
+                <div className="flex items-center py-5 pl-4">
                   <img src={logo} alt="logo" className="w-12 h-10 mr-2 " />
                   <div>
                     <p className="text-md md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">Satwik kanhere</p>
@@ -101,15 +108,15 @@ const Navbar = () => {
                   </div>
                 </div>
               </div>
-              <ul className="mt-8 text-left text-white">
+              <ul className="py-3 text-left text-white">
                 {menuLinks.map((nav, index) => (
                   <li
                     key={index}
-                    className="p-[2rem] py-4 font-semibold   hover:text-[#7151ff] hover:bg-[#44353500] transition-all cursor-pointer"
+                    className="p-[2rem] py-4 font-semibold   transition-all cursor-pointer"
                     onClick={() => setMenuOpen(false)}
                   >
-                    <div className="h-[3.4rem] border-b-[1px] border-y-zinc-800">
-                      <div className="text-[16px]">{nav.title}</div>
+                    <div className="h-[2rem] ">
+                      <div className="text-[16px] CerHeadlines py-4 px-6 hover:text-[#000000] rounded-sm hover:bg-[#ffff] transition-all cursor-pointer">{nav.title}</div>
                     </div>
                   </li>
                 ))}

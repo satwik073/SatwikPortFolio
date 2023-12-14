@@ -60,23 +60,38 @@ export const menuLinks = [
   },
   {
     id: "2",
-    title: "About",
-    toggle: "About-Section",
+    title: "About Me",
+    toggle: "#AboutSection",
   },
   {
     id: "3",
-    title: "Skills",
-    toggle: "Skills-Section",
+    title: "Practical Skills",
+    toggle: "#SkillsSection",
   },
   {
     id: "4",
     title: "Projects",
-    toggle: "Projects-Section",
+    toggle: "#ProjectsSection",
   },
   {
     id: "5",
-    title: "Contact",
-    toggle: "Contact-Section",
+    title: "Certifications",
+    toggle: "#CertificationSection",
+  },
+  {
+    id: "6",
+    title: "Achievements",
+    toggle: "#AchievementsSection",
+  },
+  {
+    id: "7",
+    title: "Patents Filed",
+    toggle: "#PatentsFiledSection",
+  },
+  {
+    id: "8",
+    title: "Research & Publications",
+    toggle: "#ResearchPublicationsSection",
   },
 ];
 

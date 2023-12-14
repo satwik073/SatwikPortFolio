@@ -35,13 +35,13 @@ const MainHeader = () => {
         >
           {Header.HeaderTitle}
         </h1>
-        
-        <button className={`${styles.ButtonLeft} ${ButtnonWrittenClass} button-container-1 mb-[4rem] btn btn-1`}>
-          Let's Work Together
+        <a href="#" download="./Satwik_Resume.pdf">
+        <button className={`${styles.ButtonLeft} ${ButtnonWrittenClass} bg-white cursor-pointer relative z-10 button-container-1 mb-[4rem] btn btn-1`}>
+          Download Resume
           
           <i className="fa-solid fa-caret-right float-right text-[20px] pr-5"></i>
         </button>
-        
+        </a>
       </div>
       
       <div className={`${AboutImageClass}`}>

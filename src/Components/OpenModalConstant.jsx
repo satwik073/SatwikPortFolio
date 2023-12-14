@@ -18,17 +18,29 @@ const OpenModalConstant = () => {
         }));
       };
     
-      const handleSubmit = (e) => {
+      const handleSubmit = async (e) => {
         e.preventDefault();
-        // Here you can perform actions with the form data, for now, just log it
-        console.log('Form submitted:', formData);
-        setSubmittedData(formData);
-        setFormData({
-          firstName: '',
-         
-          email: '',
-          message: ''
-        });
+      
+        try {
+          const response = await fetch('http://localhost:5000/api/submit-form', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          });
+      
+          const data = await response.json();
+          console.log(data); 
+          setSubmittedData(formData);
+          setFormData({
+            firstName: '',
+            email: '',
+            message: '',
+          });
+        } catch (error) {
+          console.error('Error submitting form:', error);
+        }
       };
   return (
     <div className={`fixed bottom-8 right-8 z-20  `}>
@@ -64,7 +76,7 @@ const OpenModalConstant = () => {
                 </svg>
               </button>
             </div>
-            <h3 className="text-2xl font-bold desBox pb-8 px-6 font-medium leading-6 capitalize text-black" id="modal-title">
+            <h3 className="text-2xl font-bold desBox pb-8 px-6  leading-6 capitalize text-black" id="modal-title">
               Connect With Me
             </h3>
             
@@ -73,7 +85,7 @@ const OpenModalConstant = () => {
               <form onSubmit={handleSubmit} className='px-7'>
                 <div className="-mx-2 md:items-center md:flex">
                   <div className="flex-1 px-2">
-                    <label className="block mb-2 text-sm text-black font-semibold">First Name</label>
+                    <label className="block mb-2 text-sm text-black font-semibold">Enter Your Name:</label>
                     <input
                       type="text"
                       name="firstName"
@@ -88,7 +100,7 @@ const OpenModalConstant = () => {
                 </div>
 
                 <div className="mt-4">
-                  <label className="block mb-2 text-sm text-black  font-semibold">Email address</label>
+                  <label className="block mb-2 text-sm text-black  font-semibold">Enter Your Email:</label>
                   <input
                     type="email"
                     name="email"
