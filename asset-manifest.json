@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/SatwikPortFolio/static/css/main.7f765247.chunk.css",
-    "main.js": "/SatwikPortFolio/static/js/main.cc802d33.chunk.js",
-    "main.js.map": "/SatwikPortFolio/static/js/main.cc802d33.chunk.js.map",
-    "runtime-main.js": "/SatwikPortFolio/static/js/runtime-main.8865804e.js",
-    "runtime-main.js.map": "/SatwikPortFolio/static/js/runtime-main.8865804e.js.map",
-    "static/css/2.3b91391f.chunk.css": "/SatwikPortFolio/static/css/2.3b91391f.chunk.css",
-    "static/js/2.28de8aa1.chunk.js": "/SatwikPortFolio/static/js/2.28de8aa1.chunk.js",
-    "static/js/2.28de8aa1.chunk.js.map": "/SatwikPortFolio/static/js/2.28de8aa1.chunk.js.map",
-    "static/js/3.3a967cf4.chunk.js": "/SatwikPortFolio/static/js/3.3a967cf4.chunk.js",
-    "static/js/3.3a967cf4.chunk.js.map": "/SatwikPortFolio/static/js/3.3a967cf4.chunk.js.map",
+    "main.js": "/SatwikPortFolio/static/js/main.127c8bdb.chunk.js",
+    "main.js.map": "/SatwikPortFolio/static/js/main.127c8bdb.chunk.js.map",
+    "runtime-main.js": "/SatwikPortFolio/static/js/runtime-main.9b4baa0a.js",
+    "runtime-main.js.map": "/SatwikPortFolio/static/js/runtime-main.9b4baa0a.js.map",
+    "static/css/2.f115ba41.chunk.css": "/SatwikPortFolio/static/css/2.f115ba41.chunk.css",
+    "static/js/2.083d64b0.chunk.js": "/SatwikPortFolio/static/js/2.083d64b0.chunk.js",
+    "static/js/2.083d64b0.chunk.js.map": "/SatwikPortFolio/static/js/2.083d64b0.chunk.js.map",
+    "static/js/3.995993cb.chunk.js": "/SatwikPortFolio/static/js/3.995993cb.chunk.js",
+    "static/js/3.995993cb.chunk.js.map": "/SatwikPortFolio/static/js/3.995993cb.chunk.js.map",
     "index.html": "/SatwikPortFolio/index.html",
-    "precache-manifest.50ead2d578ef00d30008980e4fc4f254.js": "/SatwikPortFolio/precache-manifest.50ead2d578ef00d30008980e4fc4f254.js",
+    "precache-manifest.580b41165a7701a9423065e05b7de10f.js": "/SatwikPortFolio/precache-manifest.580b41165a7701a9423065e05b7de10f.js",
     "service-worker.js": "/SatwikPortFolio/service-worker.js",
-    "static/css/2.3b91391f.chunk.css.map": "/SatwikPortFolio/static/css/2.3b91391f.chunk.css.map",
+    "static/css/2.f115ba41.chunk.css.map": "/SatwikPortFolio/static/css/2.f115ba41.chunk.css.map",
     "static/css/main.7f765247.chunk.css.map": "/SatwikPortFolio/static/css/main.7f765247.chunk.css.map",
-    "static/js/2.28de8aa1.chunk.js.LICENSE.txt": "/SatwikPortFolio/static/js/2.28de8aa1.chunk.js.LICENSE.txt",
+    "static/js/2.083d64b0.chunk.js.LICENSE.txt": "/SatwikPortFolio/static/js/2.083d64b0.chunk.js.LICENSE.txt",
     "static/media/about.png": "/SatwikPortFolio/static/media/about.5336bcc5.png",
     "static/media/amazon_merged_page-0001.jpg": "/SatwikPortFolio/static/media/amazon_merged_page-0001.9ebe9a98.jpg",
     "static/media/amazon_merged_page-0002.jpg": "/SatwikPortFolio/static/media/amazon_merged_page-0002.e51e3245.jpg",
@@ -27,7 +27,7 @@
     "static/media/cppCoding_page-0001.jpg": "/SatwikPortFolio/static/media/cppCoding_page-0001.81e5a59e.jpg",
     "static/media/css.png": "/SatwikPortFolio/static/media/css.63fa4858.png",
     "static/media/cyber.PNG": "/SatwikPortFolio/static/media/cyber.c40f1b8b.PNG",
-    "static/media/all.css": "/SatwikPortFolio/static/media/fa-v4compatibility.c9e50cca.woff2",
+    "static/media/all.css": "/SatwikPortFolio/static/media/fa-v4compatibility.fdb652dc.woff2",
     "static/media/firstMedal.png": "/SatwikPortFolio/static/media/firstMedal.5f2bfe65.png",
     "static/media/git.png": "/SatwikPortFolio/static/media/git.7bda57b7.png",
     "static/media/google_page-0001.jpg": "/SatwikPortFolio/static/media/google_page-0001.33fdce6c.jpg",
@@ -50,10 +50,10 @@
     "static/media/wProject.png": "/SatwikPortFolio/static/media/wProject.c3989d77.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8865804e.js",
-    "static/css/2.3b91391f.chunk.css",
-    "static/js/2.28de8aa1.chunk.js",
+    "static/js/runtime-main.9b4baa0a.js",
+    "static/css/2.f115ba41.chunk.css",
+    "static/js/2.083d64b0.chunk.js",
     "static/css/main.7f765247.chunk.css",
-    "static/js/main.cc802d33.chunk.js"
+    "static/js/main.127c8bdb.chunk.js"
   ]
 }

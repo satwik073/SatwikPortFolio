@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d591fb4f0a94672db29d1002d7c50c04",
+    "revision": "611614ef71683d7c4009e9d80bbd215a",
     "url": "/SatwikPortFolio/index.html"
   },
   {
-    "revision": "edb3f655fe57dd3e357a",
-    "url": "/SatwikPortFolio/static/css/2.3b91391f.chunk.css"
+    "revision": "ca5f556668cea4d81019",
+    "url": "/SatwikPortFolio/static/css/2.f115ba41.chunk.css"
   },
   {
-    "revision": "c857b0b2cbe09b60fad6",
+    "revision": "9f3f726525317421e5b1",
     "url": "/SatwikPortFolio/static/css/main.7f765247.chunk.css"
   },
   {
-    "revision": "edb3f655fe57dd3e357a",
-    "url": "/SatwikPortFolio/static/js/2.28de8aa1.chunk.js"
+    "revision": "ca5f556668cea4d81019",
+    "url": "/SatwikPortFolio/static/js/2.083d64b0.chunk.js"
   },
   {
     "revision": "60f6bf9e100e456690e9ab6c9a37bfc2",
-    "url": "/SatwikPortFolio/static/js/2.28de8aa1.chunk.js.LICENSE.txt"
+    "url": "/SatwikPortFolio/static/js/2.083d64b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b492589ea0059f8d95d",
-    "url": "/SatwikPortFolio/static/js/3.3a967cf4.chunk.js"
+    "revision": "37b312e31eadcec77aad",
+    "url": "/SatwikPortFolio/static/js/3.995993cb.chunk.js"
   },
   {
-    "revision": "c857b0b2cbe09b60fad6",
-    "url": "/SatwikPortFolio/static/js/main.cc802d33.chunk.js"
+    "revision": "9f3f726525317421e5b1",
+    "url": "/SatwikPortFolio/static/js/main.127c8bdb.chunk.js"
   },
   {
-    "revision": "d32d3f2d2797a8c73f5b",
-    "url": "/SatwikPortFolio/static/js/runtime-main.8865804e.js"
+    "revision": "e3083aa4281add9c43c0",
+    "url": "/SatwikPortFolio/static/js/runtime-main.9b4baa0a.js"
   },
   {
     "revision": "5336bcc51a7714615cdddf998f65b93b",
@@ -76,36 +76,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SatwikPortFolio/static/media/cyber.c40f1b8b.PNG"
   },
   {
-    "revision": "1931427c23716bb4ff98d03627f7137c",
-    "url": "/SatwikPortFolio/static/media/fa-brands-400.1931427c.ttf"
+    "revision": "b55b1345f0b919f0cab774ec25d6654e",
+    "url": "/SatwikPortFolio/static/media/fa-brands-400.b55b1345.woff2"
   },
   {
-    "revision": "b6356c957274676e6571c1ff5e11c9a8",
-    "url": "/SatwikPortFolio/static/media/fa-brands-400.b6356c95.woff2"
+    "revision": "b7dee83cb5ee2c47b053e2620f4bbb78",
+    "url": "/SatwikPortFolio/static/media/fa-brands-400.b7dee83c.ttf"
   },
   {
-    "revision": "023a4a925fa3fce0f66b769ef6bbb264",
-    "url": "/SatwikPortFolio/static/media/fa-regular-400.023a4a92.woff2"
+    "revision": "3c264849ff4eb9b6e99eab9cd54c80ae",
+    "url": "/SatwikPortFolio/static/media/fa-regular-400.3c264849.ttf"
   },
   {
-    "revision": "a0cc1c8265e3163aa654a5284ea11ace",
-    "url": "/SatwikPortFolio/static/media/fa-regular-400.a0cc1c82.ttf"
+    "revision": "aa7c5fa494807f7a9ec907defee083e8",
+    "url": "/SatwikPortFolio/static/media/fa-regular-400.aa7c5fa4.woff2"
   },
   {
-    "revision": "25914cfeafced317e1a0372187fbb2b9",
-    "url": "/SatwikPortFolio/static/media/fa-solid-900.25914cfe.ttf"
+    "revision": "0a95f951745ba02faa8773ea6a1ebaed",
+    "url": "/SatwikPortFolio/static/media/fa-solid-900.0a95f951.ttf"
   },
   {
-    "revision": "6c4eee562650e53cee32496bdfbe534b",
-    "url": "/SatwikPortFolio/static/media/fa-solid-900.6c4eee56.woff2"
+    "revision": "1ec0ba058c021acf7feaa18081445d63",
+    "url": "/SatwikPortFolio/static/media/fa-solid-900.1ec0ba05.woff2"
   },
   {
-    "revision": "71808e147dc6d82c198a4ba292c0cb69",
-    "url": "/SatwikPortFolio/static/media/fa-v4compatibility.71808e14.ttf"
+    "revision": "95b97efa98f9e3fb869bc9634c43a0cc",
+    "url": "/SatwikPortFolio/static/media/fa-v4compatibility.95b97efa.ttf"
   },
   {
-    "revision": "c9e50ccabe9e36f370272197595ea1e5",
-    "url": "/SatwikPortFolio/static/media/fa-v4compatibility.c9e50cca.woff2"
+    "revision": "fdb652dcc200dd23b8b8040176858c36",
+    "url": "/SatwikPortFolio/static/media/fa-v4compatibility.fdb652dc.woff2"
   },
   {
     "revision": "5f2bfe656302d8a563dccf7ddbd2b154",
