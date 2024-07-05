@@ -23,7 +23,7 @@ const OpenModalConstant = () => {
         e.preventDefault();
       
         try {
-            const response = await fetch('http://localhost:9054/v1/portfolio/form/submit', {
+            const response = await fetch('https://satwikportfolio-server-backend.onrender.com/v1/portfolio/form/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
