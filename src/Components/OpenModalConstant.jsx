@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { MdMarkUnreadChatAlt } from "react-icons/md";
-import "../assets/Css/fonts.css"
+import { MdMarkUnreadChatAlt } from 'react-icons/md';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const OpenModalConstant = () => {
     const [formData, setFormData] = useState({
@@ -8,32 +9,45 @@ const OpenModalConstant = () => {
         userEmail: '',
         Message: ''
     });
-    const [submittedData, setSubmittedData] = useState(null);
     const [isOpen, setIsOpen] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData((prevData) => ({
             ...prevData,
-            [name]: value,
+            [name]: value
         }));
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-      
+
         try {
-            const response = await fetch('https://satwikportfolio-server-backend.onrender.com/v1/portfolio/form/submit', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData),
-            });
-      
+            const response = await fetch(
+                'https://satwikportfolio-server-backend.onrender.com/v1/portfolio/form/submit',
+                {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                }
+            );
+
             const data = await response.json();
-            console.log(data); 
-            setSubmittedData(formData);
+            console.log(data);
+
+            // Show success toast notification
+            toast.success('Message sent successfully!', {
+                position: 'top-right',
+                autoClose: 2000,
+                hideProgressBar: true,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
+
             setFormData({
                 userName: '',
                 userEmail: '',
@@ -42,6 +56,17 @@ const OpenModalConstant = () => {
             setIsOpen(false);
         } catch (error) {
             console.error('Error submitting form:', error);
+
+            // Show error toast notification
+            toast.error('Error submitting form. Please try again later.', {
+                position: 'top-right',
+                autoClose: 2000,
+                hideProgressBar: true,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
         }
     };
 

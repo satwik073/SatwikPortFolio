@@ -19,6 +19,7 @@ import ResearchesContained from "./Components/ResearchesContained";
 import InternshipsData from "./Components/InternshipsData";
 import Achievements from "./Components/Achievements";
 import Contact from "./Components/Contact";
+import { ToastContainer } from "react-toastify";
 
 const AlterMessage = () => {
   
@@ -173,7 +174,8 @@ const AlterMessage = () => {
       <div className="w-full bg-[rgb(255,255,255)] " id="ResearchPublicationsSection">
         <ResearchesContained/>
       </div>
-      <div>
+        <div>
+          <ToastContainer/>
         <OpenModalConstant/>
       </div>
     </div>
