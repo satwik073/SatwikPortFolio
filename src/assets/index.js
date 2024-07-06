@@ -1,6 +1,8 @@
 import logo from "./images/logo/logo.png";
 import about from "./images/about.png";
+import satwik from "./images/satwikkanhere.png"
 import Javacript from "./images/icons/javascript.png";
+import gojob from "./images/Gojob.jpeg"
 import Java from "./images/icons/java.png";
 import Python from "./images/icons/python.png";
 import CProgramming from "./images/icons/cpp.png";
@@ -15,6 +17,7 @@ import GitNotIgnore from "./images/icons/git.png";
 import TailwindCss from "./images/icons/tailwind.png";
 import ProjectFlex from "./images/project.png"
 import First from "./images/icons/firstMedal.png"
+import social from "./images/social.png"
 import Second from "./images/icons/secondMedal.png";
 import wProject from "./images/wProject.png"
 import cerGoogle from "./images/google_page-0001.jpg"
@@ -57,6 +60,9 @@ export {
   VsClone,
   ReactFlexImage,
   GitNotIgnore,
+  social,
   ProjectFlex,
+  gojob,
   TailwindCss,
+  satwik
 };

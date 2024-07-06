@@ -1,7 +1,7 @@
 import React from "react";
 import { styles } from "../style";
 import "../assets/Css/fonts.css";
-import { ProjectFlex, wProject } from "../assets";
+import { ProjectFlex, wProject ,social, gojob} from "../assets";
 const Projects = () => {
   return (
     <div className=" w-full p-6  rounded-lg md:flex-row md:p-12">
@@ -28,10 +28,14 @@ const Projects = () => {
    
     <div className="flex mt-8 w-h-full">
       <div className="grid gap-10 md:gap-15 md:grid-cols-2 ">
-      <img src={ProjectFlex} className="w[100%] border-[5px] border-white box" alt="" />
+      <img src={social} className="w[100%] border-[5px] border-white box" alt="" />
       <img src={wProject} className="w[100%] border-[5px] border-white box" alt="" />
-      <img src={ProjectFlex} className="w[100%] border-[5px] border-white box" alt="" />
-      <img src={ProjectFlex} className="w[100%] border-[5px] border-white box" alt="" />
+      <img src={gojob} className="w[100%] border-[5px] border-white box" alt="" />
+          {/* <img src={ProjectFlex} className="w[100%] border-[5px] border-white box" alt="" /> */}
+          <video className="w[100%] border-[5px] border-white box" controls>
+            <source src={require('../assets/images/app.mp4')} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
       </div>
       
     </div>

@@ -1,5 +1,5 @@
 import React ,{useState, useEffect} from "react";
-import { about } from "../assets";
+import { about, satwik } from "../assets";
 import { styles } from "../style";
 import { Header } from "./Contentdata";
 import "../assets/Css/fonts.css";
