@@ -101,7 +101,7 @@ const Navbar = ({ scrollToAbout,
                 <div className="flex items-center py-5 pl-4">
                   <img src={logo} alt="logo" className="w-12 h-10 mr-2 " />
                   <div>
-                    <p className="text-md md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">Satwik kanhere</p>
+                    <p className="text-md md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">atwik kanhere</p>
                     <p className=" text-[13px] tracking-[5px] font-serif">
                       Portfolio
                     </p>

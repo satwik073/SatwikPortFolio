@@ -60,13 +60,13 @@ const AlterMessage = () => {
 
     <div className=" scroll-smooth">
          <div className={`w-full ${navbarClass} fixed top-0 pt-3 left-0 z-50`}>
-    <div className="container w-full mx-auto">
+    <div className="container w-full  mx-auto">
       <div className="flex items-center py-3 pb-4">
         {/* Left Side of Navbar */}
-        <div className="flex items-center w-[80%]">
+        <div className="flex w-full">
           <img src={logo} alt="logo" className="w-12 h-10" />
-          <div className="ml-2 md:ml-4">
-            <p className="text-md md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">
+          <div className="ml-2 md:ml-4 w-[100%] ">
+            <p className="text-xs  xs:w-[200px]  md:text-[20px] font-bold text-[#00004B] font-poppins mb-[3px] tracking-[1px]">
               Satwik kanhere
             </p>
             <p className="text-[#00004B] md:text-[#00004B] text-[13px] tracking-[5px] font-serif">
