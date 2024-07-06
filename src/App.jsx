@@ -118,7 +118,7 @@ const AlterMessage = () => {
                   <img src={logo} alt="logo" className="w-12 h-10 mr-2 " />
                   <div>
                     <p className="text-md md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">Satwik kanhere</p>
-                    <p className=" text-[13px] tracking-[5px] font-serif">
+                    <p className=" md:text-[13px] text-[1px] tracking-[5px] font-serif">
                       Portfolio
                     </p>
                   </div>
