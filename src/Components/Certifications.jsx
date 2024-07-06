@@ -6,7 +6,7 @@ import AchievementData from './AchievementData'
 
 const Certifications = () => {
   return (
-    <div className=" w-full p-6  bg-gradient-to-b from-[#f6f5fa] via-[#f6f5fa] to-[#efeffb] rounded-lg md:flex-row md:p-12">
+    <div className=" w-full p-6 rounded-lg md:flex-row md:p-12">
       
     <div className="w-full md:flex  pt-2 md:pt-[5rem]">
       <div className="w-full md:w-1/2">

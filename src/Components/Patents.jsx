@@ -6,7 +6,7 @@ import InternshipsData from './InternshipsData';
 import PatentData from './PatentData';
 const Patents = () => {
   return (
-    <div className=" w-full p-6  bg-gradient-to-b from-[#d7fffc] via-[#d7fffc] to-[#eae4f9] rounded-lg md:flex-row md:p-12">
+    <div className=" w-full p-6  rounded-lg md:flex-row md:p-12">
       <div className="w-full md:flex  pt-2 md:pt-[5rem]">
         <div className="w-full md:w-1/2">
           <h1

@@ -4,7 +4,7 @@ import "../assets/Css/fonts.css";
 import { styles } from "../style";
 const About = () => {
   return (
-    <div className="flex flex-col bgFlexed shadow-none p-6 bg-gradient-to-b from-[#fee3e3] via-[#f6f2ee] to-[#d3d3ff] rounded-lg md:flex-row md:p-12">
+    <div className="flex flex-col bgFlexed shadow-none p-6 bg-white rounded-lg md:flex-row md:p-12">
       <div class="area z-0 " ><ul class="circles"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
         <li></li><li></li></ul>
       </div >

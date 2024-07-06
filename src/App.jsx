@@ -117,8 +117,8 @@ const AlterMessage = () => {
                 <div className="flex items-center py-5 pl-4">
                   <img src={logo} alt="logo" className="w-12 h-10 mr-2 " />
                   <div>
-                    <p className="text-md md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">Satwik kanhere</p>
-                    <p className=" md:text-[13px]  tracking-[5px] font-serif">
+                    <p className="text-xs md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">Satwik kanhere</p>
+                    <p className=" md:text-[13px] text-[10px]  tracking-[5px] font-serif">
                       Portfolio
                     </p>
                   </div>
@@ -152,7 +152,7 @@ const AlterMessage = () => {
       <div className="bg-[#000]  intern text-[#fff] mt-[0rem]   w-full">
         <QualityHeader />
       </div>
-      <div className="w-full bg-gradient-to-b from-[#ffedb7]  via-[#ede4ff] to-[#b4b4ff]" id="AboutSection">
+      <div className="w-full bg-white" id="AboutSection">
         <AboutSection />
       </div>
       <div className="w-full bg-[rgb(255,255,255)] " id="SkillsSection">

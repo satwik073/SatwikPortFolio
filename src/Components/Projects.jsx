@@ -4,7 +4,7 @@ import "../assets/Css/fonts.css";
 import { ProjectFlex, wProject } from "../assets";
 const Projects = () => {
   return (
-    <div className=" w-full p-6  bg-gradient-to-b from-[#fef7e2] via-[#fee2e2] to-[#eeeefc] rounded-lg md:flex-row md:p-12">
+    <div className=" w-full p-6  rounded-lg md:flex-row md:p-12">
       
     <div className="w-[90%] md:flex  pt-2 md:pt-[5rem]">
       <div className="w-full md:w-1/2">
