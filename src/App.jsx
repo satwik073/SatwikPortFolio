@@ -69,7 +69,7 @@ const AlterMessage = () => {
             <p className="text-xs  xs:w-[200px]  md:text-[20px] font-bold text-[#00004B] font-poppins mb-[3px] tracking-[1px]">
               Satwik kanhere
             </p>
-            <p className="text-[#00004B] md:text-[#00004B] text-[13px] tracking-[5px] font-serif">
+            <p className="text-[#00004B] md:text-[#00004B] text-[10px] tracking-[5.5px] font-serif">
               Portfolio
             </p>
           </div>
@@ -118,7 +118,7 @@ const AlterMessage = () => {
                   <img src={logo} alt="logo" className="w-12 h-10 mr-2 " />
                   <div>
                     <p className="text-md md:text-[20px] font-bold text-[#00004B] font-poppins tracking-[1px]">Satwik kanhere</p>
-                    <p className=" md:text-[13px] text-[1px] tracking-[5px] font-serif">
+                    <p className=" md:text-[13px]  tracking-[5px] font-serif">
                       Portfolio
                     </p>
                   </div>
