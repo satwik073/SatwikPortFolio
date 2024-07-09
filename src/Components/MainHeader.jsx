@@ -26,7 +26,7 @@ const MainHeader = () => {
   return (
     <div className="container relative block w-full mx-auto md:flex">
       <div className="z-0 BannerFlexed">
-        <h1 className=" text-[21rem]  font-extrabold absolute text-[rgb(255,255,255)] pl-[2rem] xl:pl-[22rem] md:pl-[8rem] hidden md:block  scrolling-text">developer</h1>
+        <h1 className=" text-[21rem]  font-extrabold absolute text-[rgb(255,255,255)] pl-[2rem] xl:pl-[22rem] md:pl-[8rem] hidden md:block  scrolling-text">Software Developer</h1>
       </div>
       <div className="items-center row">
         <h1 className={`text-[24px] ${styles.logoFlex}`}>{Header.heading}</h1>

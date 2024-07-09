@@ -155,6 +155,9 @@ const AlterMessage = () => {
       <div className="w-full bg-white" id="AboutSection">
         <AboutSection />
       </div>
+      <div className="z-0 BannerFlexed">
+        <h1 className=" text-[10rem]  font-extrabold absolute text-[#00004823] pl-[2rem] xl:pl-[22rem] md:pl-[8rem] hidden md:block -mt-[5rem] scrolling-text">Professional Journey</h1>
+      </div>
       <div className="w-full bg-[rgb(255,255,255)] " id="SkillsSection">
         <WorkExperience/>
       </div>
@@ -164,13 +167,7 @@ const AlterMessage = () => {
       <div className="w-full bg-[rgb(255,255,255)] " id="CertificationSection">
         <Certifications/>
       </div>
-      <div className="w-full bg-[rgb(255,255,255)] " id="AchievementsSection">
-        <Achievements/>
-      </div>
-    
-      <div className="w-full bg-[rgb(255,255,255)] " id="PatentsFiledSection">
-        <Patents/>
-      </div>
+     
       <div className="w-full bg-[rgb(255,255,255)] " id="ResearchPublicationsSection">
         <ResearchesContained/>
       </div>
