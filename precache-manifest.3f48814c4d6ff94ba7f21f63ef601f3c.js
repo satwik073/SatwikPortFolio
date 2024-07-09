@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e800a76808fc6cb1186fa763b3c200e",
+    "revision": "8f182974b8ec1252e542d0d06f5d9883",
     "url": "/SatwikPortFolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SatwikPortFolio/static/css/2.f115ba41.chunk.css"
   },
   {
-    "revision": "df3c0fcdcbe2674aa7bc",
+    "revision": "1c4e51cb688c1fbf9ea9",
     "url": "/SatwikPortFolio/static/css/main.7f765247.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SatwikPortFolio/static/js/3.27f08b14.chunk.js"
   },
   {
-    "revision": "df3c0fcdcbe2674aa7bc",
-    "url": "/SatwikPortFolio/static/js/main.c7237644.chunk.js"
+    "revision": "1c4e51cb688c1fbf9ea9",
+    "url": "/SatwikPortFolio/static/js/main.37fcfff0.chunk.js"
   },
   {
     "revision": "29b6c60b16903353cd4a",
