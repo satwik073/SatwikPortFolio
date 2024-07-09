@@ -45,7 +45,7 @@ const MainHeader = () => {
       </div>
       
       <div className={`${AboutImageClass}`}>
-        <img  src={about} width={1500} className="md:w-[100rem] ImageContained" alt="my" />
+        <img  src={satwik} width={1500} className="md:w-[100rem] ImageContained" alt="my" />
       </div>
     </div>
   );

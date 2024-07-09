@@ -7,7 +7,9 @@ import InternshipsData from "./InternshipsData";
 const WorkExperience = () => {
   return (
     <div className=" w-full p-6  rounded-lg md:flex-row md:p-12">
-      
+        <div class="area z-0 " ><ul class="circles"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li></ul>
+      </div >
       <div className="w-full md:flex  pt-2 md:pt-[5rem]">
         <div className="w-full md:w-1/2">
           <h1
